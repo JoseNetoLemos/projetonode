@@ -1,0 +1,30 @@
+POST http://localhost:4003/products
+Content-Type: application/json
+
+{
+    "name": "teclado Clone",
+    "price": 100
+}
+
+###
+
+GET http://localhost:4003/products
+
+###
+
+GET http://localhost:4003/products/c7cb052c-9d50-4887-a366-f0b945ab03bf
+
+###
+
+PUT http://localhost:4003/products/c7cb052c-9d50-4887-a366-f0b945ab03bf
+Content-Type: application/json
+
+{
+    "name": "Teclado Multilaser",
+    "price": 30
+}
+
+###
+
+
+DELETE http://localhost:4003/products/d1cb83d3-5307-4898-87f7-cb00aa208419

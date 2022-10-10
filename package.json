@@ -1,0 +1,24 @@
+{
+  "name": "projetonode",
+  "version": "1.0.0",
+  "description": "aprendendo backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node server.js"
+  },
+  "author": "José Veraldo Alves Neto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseNetoLemos/projetonode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoseNetoLemos/projetonode/issues"
+  },
+  "homepage": "https://github.com/JoseNetoLemos/projetonode#readme"
+}
